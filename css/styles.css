@@ -84,10 +84,13 @@ ul, ol{
 
 
 .main-hero-container{
-  height: 600px;
+ margin: 0 auto;
+ width: auto;
 }
 .hero-section{
   background-color: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 .hero-title{
   color:  #FFF;
@@ -97,11 +100,9 @@ ul, ol{
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  padding-top: 188px;
-  padding-bottom: 48px;
   max-width: 496px;
   margin: auto;
-
+  margin-bottom: 48px;
 }
 .hero-button {
   background:  #4D5AE5;
@@ -112,13 +113,9 @@ ul, ol{
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
-  display: inline-flex;
   padding: 16px 32px;
-  align-items: flex-start;
-  gap: 10px;
   border-radius: 4px;
-  margin-top: 48px;
-  margin: ;
+  margin:0  auto 188px auto;
 }
 .hero-button:hover{
   background-color: #404BBF;
